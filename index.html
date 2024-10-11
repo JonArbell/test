@@ -315,14 +315,14 @@
 
             <hr class="w-[97.5%] bg-green-bg h-1 self-center"/>
 
-            <section id="main-body" class="lg:h-70vh xs:h-80vh self-center w-[97.5%] todo-section overflow-y-scroll">
+            <section id="main-body" class="lg:h-70vh xs:h-80vh self-center w-[97.5%] todo-section">
 
                 <div id="no-tasks-display" class="hidden lg:h-[69vh] xs:h-[79.5vh] font-bold sm:text-5xl xs:text-3xl 2xl:text-7xl text-green-color">
                     <h1>It looks like there are no pending tasks at the moment. Check back later or add new tasks to get started!</h1>
                 </div>
 
-                <!-- <section id="todos-container" class="lg:h-70vh xs:h-80vh">
-                    <ul class="grid xl:grid-cols-3 md:gap-x-2 lg:gap-x-4 gap-y-4 py-4 md:grid-cols-2 xs:justify-items-center lg:h-70vh xs:h-70vh">
+                <section id="todos-container" class="lg:h-70vh xs:h-80vh">
+                    <ul class="grid xl:grid-cols-3 md:gap-x-2 lg:gap-x-4 gap-y-4 py-4 md:grid-cols-2 xs:justify-items-center lg:h-70vh xs:h-70vh overflow-y-scroll">
                         <li class="xs:w-[95%] md:w-full h-25vh">
                             <div class="border-2 border-solid border-green-color rounded-2xl flex flex-col items-center justify-evenly h-full">
                                 <h2 id="4" class=" flex items-center justify-center h-[2rem] cursor-pointer text-green-color font-bold underline text-xl w-[50%] m-4" onclick="ViewDetails.viewDetails(4)" role="button">View Details</h2>
@@ -458,7 +458,7 @@
                         </li>
                     
                     </ul>
-                </section> -->
+                </section>
 
                 <section id="edit-list-name-container" class="absolute z-[55] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white-bg w-[23%] rounded-2xl shadow-[_0_2px_5px_black] hidden text-green-color">
                     <form class="p-8 flex flex-col gap-y-5">
@@ -625,7 +625,7 @@
 
             <hr class="w-[97.5%] bg-green-bg h-1 self-center lg:block xs:hidden"/>
 
-            <footer id="main-foot" class="xs:flex items-center justify-center gap-12 h-10vh">
+            <footer id="main-foot" class="lg:flex items-center justify-center gap-12 h-10vh xs:hidden">
                 <div id="logo-footer-container" class="flex items-center gap-2">
                     <img src="../../../images/checklist.png" class="h-12 w-12"/>
                     <h2 class="font-bold text-[#254336] text-xl">PEA</h2>
